@@ -11,3 +11,10 @@ function numerals(number) {
   }
   return output;
 }
+function dave(number) {
+  var output = "";
+  if (number % 3 === 0){
+    output = "I'm sorry Dave. I'm afraid I can't do that."
+  }
+  return output;
+}
