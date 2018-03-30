@@ -21,22 +21,20 @@ var beepboop = function(userInput){
   var one = [1];
   var zero = [0];
   var result = [];
-  for (var i = 0; i <= userInput; i+=1){
+  var newInput = userInput.toString();
+  for (var i = 0; i <= newInput; i+=1){
     if (i % 3 === 0 && i !== 0){
-      result.push("I'm sorry, dave. I'm afraid I can't do that.")
+      result.push("I'm sorry, Dave. I'm afraid I can't do that. ")
     } else if (zero.includes(i)){
-      result.push("beep");
+      result.push("beep ");
     } else if (one.includes(i)){
-      result.push("boop");
+      result.push("boop ");
     } else {
       result.push(i);
     }
   }
   return result;
 }
-
-
-
 
 $(document).ready(function(){
   $("#form1").submit(function(event){

@@ -1,0 +1,33 @@
+
+body{
+  background-color: green;
+}
+h1{
+  font-family: fantasy;
+}
+button{
+margin-left: 40px;
+min-width: 100px;
+min-height: 50px;
+}
+.container{
+  background-color: green;
+}
+.well {
+  margin-top: 20px;
+  background-color: #82f28f
+}
+.jumbotron{
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+}
+.form{
+  background-color: darkgreen;
+  color: white;
+  margin-left: 10px;
+  max-width: 35px;
+}
+#userInput{
+  padding-top: 20px;
+}
