@@ -42,4 +42,7 @@ _Email no one with any questions, comments, or concerns._
 
 *{This software is licensed under the MIT license}*
 
+##
+Gh-Pages link
+*https://jaredspecjr.github.io/independent-project-3/*
 Copyright (c) 2017 **_{Jared Lutz}_**
