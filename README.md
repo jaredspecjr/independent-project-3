@@ -24,7 +24,7 @@ A website that translates digits to beeps or boops, with an exception to digits 
 4. that's it you're done!
 
 ## Known Bugs
-*
+*Cannot translate 10s to beep, or numbers with 1 to boop
 
 ## Technologies Used
 * HTML
