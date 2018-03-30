@@ -21,7 +21,7 @@ var beepboop = function(userInput){
   var one = [1];
   var zero = [0];
   var result = [];
-  for (var i = 0; i < userInput; i+=1){
+  for (var i = 0; i <= userInput; i+=1){
     if (i % 3 === 0 && i !== 0){
       result.push("I'm sorry, dave. I'm afraid I can't do that.")
     } else if (zero.includes(i)){
@@ -38,6 +38,11 @@ var beepboop = function(userInput){
 
 
 
-// $(document).ready(function(){
-//
-// });
+$(document).ready(function(){
+  $("#form1").submit(function(event){
+    event.preventDefault();
+    var userInput = parseInt($("#number").val());
+    var result = beepboop(userInput);
+    $("#userInput").append(result);
+  });
+});
