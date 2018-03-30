@@ -1,12 +1,12 @@
-# Roman Numerals
+# BeepBoop
 
-#### website that translates digits to roman numerals. 3/29/18
+#### website that translates digits. 3/29/18
 
 #### By **Jared lutz**
 
 ## Description
 
-A website that translates digits to roman numerals
+A website that translates digits to beeps or boops, with an exception to digits divisible by 3
 
 
 ### Specs
@@ -18,13 +18,13 @@ A website that translates digits to roman numerals
 
 ## Setup/Installation Requirements
 
-1. clone the roman-numeral repository
-2. open the roman-numeral folder
+1. clone the independent-project-3 repository
+2. open the beepboop folder
 3. double click or drag index.html to your browser
 4. that's it you're done!
 
 ## Known Bugs
-* Not a fully functional anything.
+*
 
 ## Technologies Used
 * HTML
