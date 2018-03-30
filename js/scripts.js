@@ -1,15 +1,13 @@
 debugger;
-function numerals0(input) {
-  if (input === 0){
+function zeros(number) {
+  if (number === 0){
     return "beep";
   }
 }
-function numerals(number) {
-  var output = "";
-  for (var i = 1; i <= number; i++){
-    output = "boop";
+function ones(number) {
+  if (number === 1){
+    return "boop";
   }
-  return output;
 }
 function dave(number) {
   var output = "";
@@ -18,3 +16,20 @@ function dave(number) {
   }
   return output;
 }
+
+var beepboop = function(userInput){
+  var result = [];
+  for (var i = 0; i <= userInput; i++){
+    if (i === 0){
+      result.push("beep");
+    }
+  }
+  return result;
+}
+
+
+
+
+// $(document).ready(function(){
+//
+// });
